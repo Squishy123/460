@@ -73,46 +73,36 @@
   <!--CONTENT -->
   <div class="container news">
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-md-6">
         <div id="news">
           <div class="page-header text-muted">News</div>
-          <a class="twitter-timeline" href="https://twitter.com/LeagueOfLegends?ref_src=twsrc%5Etfw">Tweets by LeagueOfLegends</a>
-        </div>
-        <div class="col-sm-6">
         </div>
       </div>
-      <div class="well"> </div>
-
-      <!-- FOOTER -->
-      <footer class="text-center">
-        <div class="container gallerycnt">
-          <div class="row">
-            <div class="col-xs-12">
-              <p>Copyright © The 6ix eSports. All rights reserved.</p>
-            </div>
-          </div>
-        </div>
-      </footer>
-      <!-- / FOOTER -->
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="js/jquery-1.11.3.min.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="js/bootstrap.js"></script>
+      <div class="col-md-6">
+        <a class="twitter-timeline" href="https://twitter.com/LeagueOfLegends?ref_src=twsrc%5Etfw">Tweets by LeagueOfLegends</a>
+      </div>
     </div>
   </div>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+  <!-- FOOTER -->
+  <footer class="text-center">
+    <div class="container gallerycnt">
+      <div class="row">
+        <div class="col-xs-12">
+          <p>Copyright © The 6ix eSports. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- / FOOTER -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.js"></script>
+
+  <script async src="https://platform.twitter.com/widgets.js"></script>
   <script src="js/main.js"></script>
-  <script> var url = 'https://newsapi.org/v2/everything?' +
-      'q=Apple&' +
-      'from=2018-04-07&' +
-      'sortBy=popularity&' +
-      'apiKey=API_KEY';
-    var req = new Request(url);
-    fetch(req)
-      .then(function (response) {
-        console.log(response.json());
-      })
-  </script>
 </body>
 
 </html>
