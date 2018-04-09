@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color: #002A5C;
+	 border-color: #002A5C;
+	 overflow-x:hidden;}
+.navbar{background-color: #031E3B;
+		border-color: #031E3B;}
+.navbar-default .navbar-brand{color: white}
+.navbar-default .navbar-nav > li > a {color: white}
+.jumbotron{background-image: url(../images/Toronto_Ontario.jpg);
+		   background-size: cover;
+ 		   padding-top: 10%;
+      	   padding-bottom: 15%;}
+.jumbotron h1{
+    color: white;
+    margin-top: -1%;
+    border: medium;
+    font-size: 6em;
+}
+div{border-color: #002A5C}
+.btn{border-color: #002A5C}
+.jumbotron p{color: white}
+img{content: center;
+	padding: 2em}
+#fight6ix{width: 100%}
+.img-circle{background-color: black}
+h2,h3,p{color: white}
+.lollogo{width: 100%}
+.dota2logo{width: 100%}
+.overwatchlogo{width: 100%}
+.sponsorlogo{width: 100%}
+.sponsorinfo{margin-top: 5%;
+			 margin-bottom: 8%;
+			 font-size: 150%}
+#lolimg{margin-bottom: -0%}
+.teamstatus{width: 45%}
+#dota2logo{width: 45%}
+.infotxt{margin-bottom: 5%;
+		 font-size: 150%;
+		 margin-left: 2%;
+		 margin-right: 2%}
+.contactform{border-radius: 5px;
+   			 background-color: #f2f2f2;
+    	     padding: 20px;
+			 width: 50%;
+			 margin-bottom: 2%;
+			 margin-top: 2%}
+input[type=submit]:hover{background-color: green;}
+input[type=text], select, textarea{width: 100%;
+   								   padding: 2%;
+    							   border: 1px solid grey;
+   	 							   border-radius: 0%;
+    							   box-sizing: border-box;
+    							   margin-top: 2%;
+    							   margin-bottom: 4%;
+    							   resize: vertical;}
+input[type=submit] {background-color: mediumseagreen;
+  					color: white;
+   					padding: 2% 4%;
+    				border: none;
+    				border-radius: 0%}
+.contacttxt{text-align: center}
+.carousel-inner>.item>img{margin: 0 auto;}
+
+.news{background-color: white}
+.row {
+	height: 100%;
+	width:80%; 
+	margin: auto;
+	margin-bottom: 3%;}
+#news{font-size: 4em}
+.text-muted {color: black}
+.row h3, h4 {color: black;}
+.playername{color: white;
+			font-size: 140%;
+			margin-top: 7%;
+			margin-bottom: 2%;}
+.navbar-brand{font-size: 22px}
+.nav{font-size: 14px;
+	text-transform: uppercase;}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>News-The 6ix Esports</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">The 6ix eSports</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="about.html">About
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="teams.html">Teams
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="leagueoflegendsteam.html">League of Legends</a>
+              </li>
+              <li>
+                <a href="overwatchteam.html">Overwatch</a>
+              </li>
+              <li>
+                <a href="dota2team.html">Dota 2</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active">
+            <a href="news.html">News</a>
+          </li>
+          <li>
+            <a href="sponsors.html">Sponsors</a>
+          </li>
+          <li>
+            <a href="gallery.html">Gallery</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <!--CONTENT -->
+  <div class="container news">
+    <div class="row">
+      <div class="col-sm-6">
+        <div id="news">
+          <div class="page-header text-muted">News</div>
+          <a class="twitter-timeline" href="https://twitter.com/LeagueOfLegends?ref_src=twsrc%5Etfw">Tweets by LeagueOfLegends</a>
+        </div>
+        <div class="col-sm-6">
+        </div>
+      </div>
+      <div class="well"> </div>
+
+      <!-- FOOTER -->
+      <footer class="text-center">
+        <div class="container gallerycnt">
+          <div class="row">
+            <div class="col-xs-12">
+              <p>Copyright © The 6ix eSports. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- / FOOTER -->
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="js/jquery-1.11.3.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.js"></script>
+    </div>
+  </div>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script src="js/main.js"></script>
+  <script> var url = 'https://newsapi.org/v2/everything?' +
+      'q=Apple&' +
+      'from=2018-04-07&' +
+      'sortBy=popularity&' +
+      'apiKey=API_KEY';
+    var req = new Request(url);
+    fetch(req)
+      .then(function (response) {
+        console.log(response.json());
+      })
+  </script>
+</body>
+
+</html>
